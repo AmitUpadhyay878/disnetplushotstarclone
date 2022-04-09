@@ -1,24 +1,23 @@
-import React from "react";
-import SlickSlider from "./Slider/SlickSlider";
+import React, { useState } from "react";
+
 import styled from "styled-components";
 import Viwers from "./Viwers";
 import Movies from "./Movies";
+import Banner from "./Banner";
 
 const Home = () => {
-  
-  return(
 
-<div>
-
-<SlickSlider />
-<Viwers />
-
-<Movies/>
-
-</div>
 
   
-  )
+  return (
+    <React.Fragment>
+          <Banner />
+      <div>
+        <Viwers />
+        <Movies />
+      </div>
+    </React.Fragment>
+  );
 };
 
 export default Home;

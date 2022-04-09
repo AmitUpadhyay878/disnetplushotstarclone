@@ -90,7 +90,7 @@ export default function Header() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
         position="static"
-        style={{ backgroundColor: "#B20600" }}
+        sx={{ backgroundColor: "#B20600"}}
         // style={{backgroundColor:"black"}}
       >
         <Toolbar>
